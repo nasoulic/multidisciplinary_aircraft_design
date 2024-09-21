@@ -404,6 +404,7 @@ class AircraftDesignMainWindow(QMainWindow):
             os.chdir(os.path.join(os.getcwd(), folder))
 
 if __name__ == "__main__":
+    
     app = QApplication(sys.argv)
     monitor = QDesktopWidget().screenGeometry(0)
     main_window = AircraftDesignMainWindow()
