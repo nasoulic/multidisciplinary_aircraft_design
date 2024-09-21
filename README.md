@@ -16,22 +16,22 @@ Installation Guidelines:
 
 1) Download OpenVSP-3.38.0-win64 from the following website: https://openvsp.org/download.php
 
-	NOTE: If you don't want to use the latest version of OpenVSP you can skip this step. A working version of OpenVSP is 
-	located in the ./aircraft_visualisation/OpenVSP-3.38.0-win64 path.
+    NOTE: If you don't want to use the latest version of OpenVSP you can skip this step. A working version of OpenVSP is 
+    located in the ./aircraft_visualisation/OpenVSP-3.38.0-win64 path.
 
 2) Follow the instructions found on the OpenVSP-3.38.0-win64/python/README.md file to create the conda environment supporting the OpenVSP python API (Summarised below).
-	2.1) Open a command prompt window and navigate to relative path: ./OpenVSP-3.38.0-win64/python/
-	2.2) run <conda env create -f .\environment.yml>
-	2.3) run <conda activate mdhead_vsp>
-	2.4) run <pip install -r requirements-dev.txt>
+    2.1) Open a command prompt window and navigate to relative path: ./OpenVSP-3.38.0-win64/python/
+    2.2) run <conda env create -f .\environment.yml>
+    2.3) run <conda activate mdhead_vsp>
+    2.4) run <pip install -r requirements-dev.txt>
 
 3) Install openmdao and PyQt5 in the new vsp conda environment:
-	3.1) Acivate the conda environment
-	3.2) run <pip install openmdao>
-	3.3) run <pip install PyQt5>
-	3.4) run <pip install pyDOE2>
+    3.1) Activate the conda environment
+    3.2) run <pip install openmdao>
+    3.3) run <pip install PyQt5>
+    3.4) run <pip install pyDOE2>
 
-4) Copy the OpenVSP-3.38.0-win64/CustomScripts fodler to your Users file directory (e.g. C:\Users\<myusername>\CustomScripts)
+4) Copy the OpenVSP-3.38.0-win64/CustomScripts folder to your Users file directory (e.g. C:\Users\<myusername>\CustomScripts)
 
 5) Done.
 
@@ -57,3 +57,4 @@ This software has been developed as a partial fulfilment of the Developer's PhD.
 
 Data produced with this software may not be published or disclosed to
 any third party without the written authorisation of the author(s). 
+
