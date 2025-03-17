@@ -37,6 +37,10 @@ Installation Guidelines:
 
 NOTE: This project has been built using Python 3.11. Variations in the Python version may require additional actions to install the project.
 
+To cite this work, please use both the following references:
+1) Nasoulis CP, Gkoutzamanis VG, Kalfas AI. Multidisciplinary conceptual design for a hybrid-electric commuter aircraft. The Aeronautical Journal. 2022;126(1302):1242-1264. doi:10.1017/aer.2022.32
+2) Nasoulis CP, Protopapadakis G, Ntouvelos EG, Gkoutzamanis VG, Kalfas AI. Environmental and techno-economic evaluation for hybrid-electric propulsion architectures. The Aeronautical Journal. 2023;127(1317):1904-1926. doi:10.1017/aer.2023.27
+
 Copyright © 2023
 Laboratory of Fluid Mechanics and Turbomachinery
 Aristotle University of Thessaloniki
